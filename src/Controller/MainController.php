@@ -17,7 +17,9 @@ class MainController extends AbstractController
      * @Route("/", name="main_home")
      */ 
     public function index() :Response
-    {		
+    {
+        echo 'Toto';
+
         return $this->render('main/home.html.twig');
     } // -- index()
 	
