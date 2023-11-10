@@ -32,7 +32,7 @@ class UserFixtures extends Fixture
             $participant->setEmail($faker->email());
             $participant->setFirstname($faker->firstName());
             $participant->setLastname($faker->lastName());
-            $participant->setRoles(["ROLE_USER"]); // ou rien
+            $participant->setRoles([]); // ou rien
             $participant->setAddress($faker->streetAddress());
             $participant->setPostcode($faker->postcode());
             $participant->setCity($faker->city());

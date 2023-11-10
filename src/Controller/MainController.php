@@ -26,6 +26,8 @@ class MainController extends AbstractController
      */
     public function test(Capitalize $capitalize): Response
     {
+        // var_dump($sFirstname);
+
         if ($this->getUser()) {
             $participant = $this->getUser();
 
